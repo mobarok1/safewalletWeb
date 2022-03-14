@@ -1,6 +1,3 @@
-
-
-
 <!doctype html>
 <html lang="en">
     <head>
@@ -37,7 +34,19 @@
                 color: rgb(255, 255, 255);
                 font-weight: bold;
             }
-           
+            .button {
+                background-color: #152c55;
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+            }
+            .button4 {border-radius: 20px;}
+
         </style>
     </head>
     <body>
@@ -263,50 +272,40 @@
                     
                     
                     
-                    
-                    <a href="" class="btn-large btn-white hide-mobile">Download</a>
+                    <div style="display: inline-flex;">
+                        <a href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet"  style="color: #000000;" class="btn-large btn-white hide-mobile">Download</a>
+                        <a href="/Whitepaper.pdf" style="color: #000000; margin-left: 10px;" class="btn-large btn-white hide-mobile">Whitepaper</a>
+                        
+                    </div>
                     
                         <div class="title-4">
                             Secured and powerfull Crypto Wallet
                         </div>
                     
-                    <div class="for-mobile">
-                        <div class="mobile-platforms">
+                        <div class="for-mobile">
+                            <div class="mobile-platforms">
 
-    
-        
+                                <a aria-label="Download wallet for android" href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet" class="mobile-item platform" data-download="android" target = "_blank">
+                                    <div class="mobile-item__logo">
+                                        <img src="images/download/google-play-icon.svg" alt="">
+                                        
+                                    </div>
+                                </a>
+                            
+                                <button aria-label="Download wallet for ios" class="mobile-item platform" data-popup="popup-notification">
+                                    <div class="mobile-item__logo">
+                                        <img src="images/download/appstore-icon.svg" alt="">
+                                        
+                                    </div>
+                                </button>
+                                
+                                <button aria-label="Download wallet for android-apk" data-download-link="/Whitepaper.pdf" class="mobile-item platform button button4">
+                                
+                                    Whitepaper
+                                
+                                </button> 
 
-        
-            <a aria-label="Download wallet for android" href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet" class="mobile-item platform" data-download="android" target = "_blank">
-                <div class="mobile-item__logo">
-                    <img src="images/download/google-play-icon.svg" alt="">
-                    
-                </div>
-            </a>
-        
-            <button aria-label="Download wallet for ios" class="mobile-item platform" data-popup="popup-notification">
-                <div class="mobile-item__logo">
-                    <img src="images/download/appstore-icon.svg" alt="">
-                    
-                </div>
-            </button>
-        
-
-    
-        
-
-        
-            <!-- <button aria-label="Download wallet for android-apk" data-download-link="/download/Safewallet.apk" class="mobile-item platform" data-download="android-apk">
-                <div class="mobile-item__logo">
-                    <img src="images/download/DownloadAPK.svg" alt="">
-                    
-                </div>
-            </button> -->
-        
-
-    
-
-</div>
+                            </div>
                         
 <div class="mobile-program">
     
@@ -601,64 +600,73 @@
     </div>
 </section>
 
-
-    <section class="features-section">
-        <div class="container">
-            <p class="features-section__title"></p>
-            <div class="row">
-                
-                    
-                    <div class="col-4 col-md-6 col-sm-12">
-                        <div class="features-item">
-                            <img data-src="images/features/icon-secure.svg" alt="" class="features-item__icon lazyload">
-                            <div class="features-item__title title-4">
-                                Secure
-                            </div>
-                            <p class="features-item__text p-18">
-                                Your private keys are encrypted and never leave your device. You fully control your funds.
-                            </p>
-                        </div>
-                    </div>
-                
-                    
-                    <div class="col-4 col-md-6 col-sm-12">
-                        <div class="features-item">
-                            <img data-src="images/features/icon-anonym.svg" alt="" class="features-item__icon lazyload">
-                            <div class="features-item__title title-4">
-                                Anonymous
-                            </div>
-                            <p class="features-item__text p-18">
-                                No accounts, no verification, no KYC for basic features in the wallet. No one can block your funds.
-                            </p>
-                        </div>
-                    </div>
-                
-                    
-                    <div class="col-4 col-md-6 col-sm-12">
-                        <div class="features-item">
-                            <img data-src="images/features/icon-support.svg" alt="" class="features-item__icon lazyload">
-                            <div class="features-item__title title-4">
-                                24/7 live support
-                            </div>
-                            <p class="features-item__text p-18">
-                                Our support is always ready to help you. Get quick and efficient response via live chat or email.
-                            </p>
-                        </div>
-                    </div>
-                
-            </div>
-            <div class="features-section__btn ">
-                <a href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet" class="btn-large btn-blue download-anchor">
-                    Download wallet
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet" class="btn-large btn-blue download-link" target = "_blank">
-                    Download wallet
-                </a>
+<section class="team-section">
+    <div class="container">
+        <div class="section-heading">
+            <div class="title-1">
+                Features
             </div>
         </div>
-    </section>
 
+        <div class="team-section__slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                        
 
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                
+                                <div class="features-item">
+                                    <img data-src="images/features/icon-secure.svg" alt="" class="features-item__icon lazyload">
+                                    <div class="features-item__title title-4">
+                                        Secure
+                                    </div>
+                                    <p class="features-item__text p-18">
+                                        Your private keys are encrypted and never leave your device. You fully control your funds.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                
+                                <div class="features-item">
+                                    <img data-src="images/features/icon-anonym.svg" alt="" class="features-item__icon lazyload">
+                                    <div class="features-item__title title-4">
+                                        Anonymous
+                                    </div>
+                                    <p class="features-item__text p-18">
+                                        No accounts, no verification, no KYC for basic features in the wallet. No one can block your funds.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="team-card">
+                                
+                                <div class="features-item">
+                                    <img data-src="images/features/icon-support.svg" alt="" class="features-item__icon lazyload">
+                                    <div class="features-item__title title-4">
+                                        24/7 live support
+                                    </div>
+                                    <p class="features-item__text p-18">
+                                        Our support is always ready to help you. Get quick and efficient response via live chat or email.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
 <section class="supported-section">
     <div class="container">
         <div class="section-heading">
@@ -836,64 +844,34 @@
         <!-- END CONTAINER -->
     </section>
     <!-- END TOKEN SALE  -->
-<section class="team-section">
-    <div class="container">
-        <div class="section-heading">
-            <div class="title-1">
-                Our Team
-            </div>
-        </div>
 
-        <div class="team-section__slider">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
+<div class="section-heading">
+    <div class="title-1">
+        Our Team
+    </div>
+</div>
+<div class="swiper-slide" >
+    <div class="team-card" style="width: 80%; margin: auto;">
+        
+        <img src="images/team/photo.jpg" alt="KONSTANTIN GLADYCH" class="team-card__avatar swiper-lazy">
+        <p class="team-card__name p-18">
+            Savas Wahid Farazz
+        </p>
+        <p class="team-card__name p-18">
+            CEO And Founder Of SafeWallet
+        </p>
+        <p class="team-card__info p-18">
+            I am Savas Wahid Farazz . I am now studying Computer Science Engineering at London South Bank University and I live in London. I am quite good at developing a project and I will take SafeWallet to the extreme level. </p>
+        <div class="team-card__links">
+            
+                
+                <a aria-label="Go to KONSTANTIN GLADYCH socials" rel="nofollow noreferrer" href="https://t.me/savasfaraz">
                     
-                        
-
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                
-                                <img data-src="images/team/photo.jpg" alt="KONSTANTIN GLADYCH" class="team-card__avatar swiper-lazy">
-                                <p class="team-card__name p-18">
-                                    Savas Wahid Farazz
-                                </p>
-                                <p class="team-card__info p-18">
-                                    I am Savas Wahid Farazz . I am now studying Computer Science Engineering at London South Bank University and I live in London. I am quite good at developing a project and I will take SafeWallet to the extreme level. </p>
-                                <div class="team-card__links">
-                                    
-                                        
-                                        <a aria-label="Go to KONSTANTIN GLADYCH socials" rel="nofollow noreferrer" href="https://t.me/savasfaraz">
-                                            
-                                            <img data-src="images/icons/tg.svg" alt="" class="lazyload" height="40px">
-                                        </a>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        
-
-                        <div class="swiper-slide">
-                            <div class="team-card">
-                                
-                                <img data-src="images/team/team2.jpg" alt="Yaan Ozo" class="team-card__avatar swiper-lazy">
-                                <p class="team-card__name p-18">
-                                    Yaan Ozo
-                                </p>
-                                <p class="team-card__info p-18">
-                                    Strategic Advisor and Visionary, is an American entrepreneur and bitcoin advocate. In 2011 he co-founded the now-defunct startup company BitInstant, and is a founding member of the Bitcoin Foundation, formerly serving as vice chairman. The Bitcoin Foundation is a nonprofit founded in 2012 with the mission to standardize, protect and promote the use of bitcoin cryptographic money.
-                                </p>
-                            </div>
-                        </div>
-                    
-                </div>
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-pagination"></div>
+                    <img data-src="images/icons/tg.svg" alt="" class="lazyload" height="40px">
+                </a>
         </div>
     </div>
-</section>
-
+</div>
 
 <section class="download-section" id="download-section-anchor">
 	<div class="container">
@@ -1245,14 +1223,6 @@
         <!-- END CONTAINER -->
     </section>
     <!-- END CONTACT -->
-
-
-
-
-<button aria-label="support widget" class="support-form-link">
-    <svg class="support-form-link__icon" width="24" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M20.347 20.871l-.003-.05c0 .017.001.034.003.05zm-.243-4.278a2 2 0 0 1 .513-1.455c1.11-1.226 1.383-2.212 1.383-4.74C22 5.782 18.046 2 13.125 2h-2.25C5.954 2 2 5.78 2 10.399c0 4.675 4.01 8.626 8.875 8.626h2.25c.834 0 1.606-.207 3.212-.798a2 2 0 0 1 1.575.083l2.355 1.161-.163-2.878zM10.875 0h2.25C19.13 0 24 4.656 24 10.399c0 2.6-.25 4.257-1.9 6.08l.243 4.279c.072.845-.807 1.471-1.633 1.162l-3.682-1.816c-1.212.446-2.527.921-3.903.921h-2.25C4.869 21.025 0 16.142 0 10.4 0 4.656 4.869 0 10.875 0z" fill="#FFF"></path></svg>
-    <span>Help</span>
-</button>
 
 <footer class="footer" style="background-color: rgb(33, 35, 37)">
     <div class="container">
