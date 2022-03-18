@@ -34,6 +34,10 @@
                 color: rgb(255, 255, 255);
                 font-weight: bold;
             }
+            a:visited {
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
             .button {
                 background-color: #152c55;
                 border: none;
@@ -46,6 +50,14 @@
                 margin: 4px 2px;
             }
             .button4 {border-radius: 20px;}
+            #supporter img{
+                display:block; 
+                margin: 10px auto;
+            }
+            .info__col{
+                display:block; 
+                margin: 10px auto;
+            }
 
         </style>
     </head>
@@ -200,12 +212,12 @@
     <section class="first-section bg-index-first-section">
         <div class="container">
             <div class="first-section__row">
-                <div class="first-section__left first-section__col">
+                <div class="first-section__left first-section__col" >
                     
-                    <h1 class="title-1">
+                    <h1 class="title-1 text-center">
                         Cryptocurrency Wallet
                     </h1>
-                    <p class="p-18">
+                    <p class="p-18" style="margin: auto;">
                         <span class="hide-tablet">
                             Manage your Etherium, BEP20 coins / tokens. 
                         </span>
@@ -215,10 +227,9 @@
                     </p>
                     
                     
-                        <div class="info">
+                        <div class="info" style="margin: 20px auto;">
                             
-                                
-                                <div class="info__col">
+                                <div class="info__col" style="margin: auto;">
                                     <div class="info__desc">
                                         Your private keys and backup are encrypted and never leave your device.
                                     </div>
@@ -235,7 +246,7 @@
                                 </div>
                             
                                 
-                                <div class="info__col">
+                                <div class="info__col" style="margin: auto;">
                                     <div class="info__desc">
                                         Only you have access to your funds. Only you control your crypto.
                                     </div>
@@ -252,7 +263,7 @@
                                 </div>
                             
                                 
-                                <div class="info__col">
+                                <div class="info__col" style="margin: auto;">
                                     <div class="info__desc">
                                         No accounts, no verification, no KYC. No one can block your crypto.
                                     </div>
@@ -278,7 +289,7 @@
                         
                     </div>
                     
-                        <div class="title-4">
+                        <div class="title-4 text-center" style="margin: 10px auto;">
                             Secured and powerfull Crypto Wallet
                         </div>
                     
@@ -299,11 +310,11 @@
                                     </div>
                                 </button>
                                 
-                                <button aria-label="Download wallet for android-apk" data-download-link="/Whitepaper.pdf" class="mobile-item platform button button4">
+                                <a aria-label="Download wallet for android-apk" href="/Whitepaper.pdf" class="mobile-item platform button button4">
                                 
                                     Whitepaper
                                 
-                                </button> 
+                                </a> 
 
                             </div>
                         
@@ -311,132 +322,122 @@
     
     
     <div class="first-screen-mobile-slider">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-exchange.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-exchange.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-buy-crypto.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-buy-crypto.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-portfolio.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-portfolio.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-private-key.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-private-key.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-history.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-history.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-staking.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-staking.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
                     
-                    <div class="swiper-slide">
-                        <img 
-                            data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-wallet.webp" 
-                            alt=""
-                            class="mobile-program__img swiper-lazy">
+                        
+                        <div class="swiper-slide">
+                            <img 
+                                data-src="images/mobile-interface-slider/Safe-wallet-mobile-app-wallet.webp" 
+                                alt=""
+                                class="mobile-program__img swiper-lazy">
 
-						
-						
-							<div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
-						</div>
-                    </div>
-                
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
-</div>
-                    </div>
+                            
+                            
+                                <div class="swiper-lazy-preloader" style="top: calc(50% + 217px)">
+                            </div>
+                        </div>
+                    
                 </div>
-                <div class="first-section__right first-section__col hide-mobile">
-                    <div style="margin-left: 200px;">
-       <img
-            src="images/shot1.webp"
-            alt="laptop"
-            width="230px"
-            height="450px"
-        >
-        <a class="laptop__bottom" href="#" target="_blank"></a>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
+        </div>
+     </div>
+     </div>
+                
     </div>
 </div>
 </section> 
@@ -600,11 +601,11 @@
     </div>
 </section>
 
-<section class="team-section">
+<section >
     <div class="container">
         <div class="section-heading">
             <div class="title-1">
-                Features
+                Our Crypto Wallet
             </div>
         </div>
 
@@ -667,6 +668,122 @@
         </div>
     </div>
 </section>
+
+<section class="reviews-section" style="margin-top: 10px;margin-bottom: -120px;">
+    <div class="container">
+        <div class="section-heading">
+            <div class="title-1">
+                Upcoming Features
+            </div>
+            <p class="p-16">
+                We are continuously developing new features for the user.
+            </p>
+        </div>
+        <div class="reviews-slider slider-style">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/stacking.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Staking
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Stacking  SLT tokens and get upto 350% APY.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/Savings.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Savings
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Save your token and get rewards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/buy.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Buy
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Buy Token from our wallet app easily
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/swap.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Swap Farming
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Earn Reward from Swap Farming
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/launchpad.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Launchpad
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Launch your token from our platform
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/loan.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Crypto Loans
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Crypto loan with low interest fees.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-card">
+                            <div class="features-item">
+                                <img data-src="images/features/nft.png" alt="" class="features-item__icon lazyload">
+                                <div class="features-item__title title-4">
+                                    Gamming
+                                </div>
+                                <p class="features-item__text p-18">
+                                    Earn Reward by playing game
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
 <section class="supported-section">
     <div class="container">
         <div class="section-heading">
@@ -725,8 +842,11 @@
                     <div><img src="https://s2.coinmarketcap.com/static/img/coins/128x128/7080.png" /></div>
                     <div class="coin-item__name p-18">Gala</div>
                 </a>  
-               
-            
+                <a target="_blank" href="#" class="coin-item">
+                    <div><img src="https://s2.coinmarketcap.com/static/img/coins/128x128/74.png" /></div>
+                    <div class="coin-item__name p-18">DOGE</div>
+                </a>  
+    
         </div>
         <div class="text-center">
             <a href="#" class="btn-blue btn-large">
@@ -910,51 +1030,6 @@
 </section>
 
 
-
-
-
-
-
-<section class="partners-section">
-    <div class="container">
-        <div class="section-heading">
-            <div class="title-1"> Our Partners </div>
-        </div>
-        <div class="row">
-                <div class="col-3 col-sm-6">
-                    <div class="partner-item1">
-                        <img data-src="images/download/coingecko.png" alt="" class="lazyload">
-                        
-                    </div>
-                </div>
-            
-                
-                <div class="col-3 col-sm-6">
-                    <div class="partner-item1">
-                        <img data-src="images/download/coinmarketcap.png" alt="" class="lazyload">
-                        
-                    </div>
-                </div>
-            
-            
-                <div class="col-3 col-sm-6">
-                    <div class="partner-item1">
-                        <img data-src="images/download/bloomberg.png" alt="" class="lazyload">
-                        
-                    </div>
-                </div>
-            
-                
-                <div class="col-3 col-sm-6">
-                    <div class="partner-item1">
-                        <img data-src="images/download/pinkswap.png" alt="" class="lazyload">
-                        
-                    </div>
-                </div>
-        </div>
-    </div>
-</section>
-
 <section class="questions-section" id="contact" name="Contact">
     
     <div class="container">
@@ -1013,6 +1088,62 @@
             </div>        
         </div>
     </div>
+</section> 
+
+<section class="questions-section" id="supporter" name="supporter"  style="background-color: rgb(33, 35, 37);">
+    
+      <!-- START PARTNER -->
+      <div class="">
+        <div >
+            <div class="section-title text-center">
+                <h1>Partners & Supporters</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                    <div class="partner-logo" >
+                        <img src="assets/img/coingecko.png" alt="partner-image" height="70px"/>
+                    </div>
+                </div>
+                <!-- END COL -->
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+                    <div class="partner-logo" style="margin-top: 15px;">
+                        <img src="assets/img/coinmarketcap.png" alt="partner-image" height="70px"/>
+                    </div>
+                </div>
+                <!-- END COL -->
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+                    <div class="">
+                        <img src="https://poocoin.app/images/logo/poocoin512.png" alt="partner-image" height="70px"/>
+                    </div>
+                </div>
+                <!-- END COL -->
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
+                    <div style="margin-top: 15px;" >
+                        <img src="https://coinmooner.com/logo-moon.svg" alt="partner-image" height="50px" />
+                    </div>
+                </div>
+                <!-- END COL -->
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
+                    <div class="" style="margin-top: 20px;margin-bottom: 10px;">
+                        <img src="https://coinsniper.net/assets/img/logo.png" alt="partner-image" height="60px"/>
+                    </div>
+                </div>
+            
+                <!-- END COL -->
+                <div class="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s" data-wow-offset="0">
+                    <div class="" style="margin-top: 15px;">
+                        <img src="assets/img/bloomberg.png" alt="partner-image" height="70px" />
+                    </div>
+                </div>
+                
+                <!-- END COL -->
+            </div>
+            <!-- END ROW -->
+        </div>
+        <!--- END CONTAINER -->
+    </div>
+    <!-- END PARTNER -->
 </section> 
 <section class="subscribe-section">
     <div class="container">
@@ -1185,7 +1316,7 @@
                                     <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg contact_btn" title="Submit Your Message!">Submit Message</button>
+                                    <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-primary" title="Submit Your Message!">Submit Message</button>
                                 </div>
                             </div>
                         </form>
@@ -1227,7 +1358,7 @@
 <footer class="footer" style="background-color: rgb(33, 35, 37)">
     <div class="container">
         <div class="row" >
-            <div class="mobile-platforms" style="align-items: center;">
+            <div class="mobile-platforms" style="align-items: center;margin-bottom: 40px;margin-top: -150px;">
             
                 <a aria-label="Download wallet for android" href="https://play.google.com/store/apps/details?id=com.mobarok.safewallet" class="mobile-item platform" data-download="android" target = "_blank">
                     <div class="mobile-item__logo">
@@ -1268,19 +1399,19 @@
                                     </li>
                                 
                                     <li>
-                                        <a class="link" href="https://www.facebook.com/105055218793178/">
+                                        <a class="link" href="https://www.facebook.com/105055218793178">
                                             Facebook
                                         </a>
                                     </li>
                                 
                                     <li>
-                                        <a class="link" href="https://t.me/safewalletofficial" >
+                                        <a class="link" href="https://www.t.me/safewalletofficial" >
                                             Telegram Official Group
                                         </a>
                                     </li>
                                 
                                     <li>
-                                        <a class="link" href="https://t.me/safewalletofficialannouncement" >
+                                        <a class="link" href="https://www.t.me/safewalletofficialannouncement" >
                                             Telegram Channel
                                         </a>
                                     </li>
@@ -1301,7 +1432,7 @@
                             <ul class="footer-list">
                                 
                                     <li>
-                                        <a class="link" href="#" >
+                                        <a class="link" href="index.html" >
                                             Terms of service
                                         </a>
                                     </li>
